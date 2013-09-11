@@ -2,7 +2,7 @@ import org.gmock.GMockTestCase
 
 class SimpleTest extends GMockTestCase {
     void test_file() {
-        CrapUtility utility = mock(CrapUtility)
+        SimpleUtility utility = mock(SimpleUtility)
 
         File file1 = mock(File)
         utility.deleteDirectory(file1)
@@ -17,7 +17,7 @@ class SimpleTest extends GMockTestCase {
     }
 
     void test_uri() {
-        CrapUtility mockUtility = mock(CrapUtility)
+        SimpleUtility mockUtility = mock(SimpleUtility)
 
         URI uri1 = mock(URI)
         mockUtility.deleteUri(uri1)
