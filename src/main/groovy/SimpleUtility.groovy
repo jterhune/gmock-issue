@@ -1,4 +1,4 @@
-class CrapUtility {
+class SimpleUtility {
     void deleteFile(File file) {
     }
 

@@ -1,6 +1,6 @@
 import org.gmock.GMockTestCase
 
-class CrapTest extends GMockTestCase {
+class SimpleTest extends GMockTestCase {
     void test_file() {
         CrapUtility utility = mock(CrapUtility)
 
